@@ -1,20 +1,22 @@
 #initialization of git
 
-git init
+#git init
 
-git status
+#git status
 
-git add .
+#git add .
 
-git commit -m "commit message"
+#git commit -m "commit message"
 
-git pull origin master
+#git pull origin master
 
-git push origin master
+#git push origin master
 
 # to check the branch
 
-git branch
+#git branch
 
-git checkout branchName
+#git checkout branchName
+
+#changed something
 
