@@ -81,22 +81,22 @@ print(calc.mul(2,4))
 #7.Constructor--> It is a class function with double underscore
 #__init__(), function is being called when object is created
 
-# class Employee:
-#     def __int__(self, name, id):
-#         self.name = name
-#         self.id = id
-#     def print_emp_details(self):
-#         print("Employee Name :",self.name)
-#         print("Employee Id:",self.id)
-#
-# emp1 = Employee("Surakshya",1)
-# emp2=Employee("Hari",2)
-# emp3=Employee("Gita",3)
-# emp4=Employee("Shyam",4)
-# emp1.print_emp_details()
-# emp2.print_emp_details()
-# emp3.print_emp_details()
-# emp4.print_emp_details()
+class Employee:
+    def __init__(self, name, id):
+        self.name = name
+        self.id = id
+    def print_emp_details(self):
+        print("Employee Name :",self.name)
+        print("Employee Id:",self.id)
+
+emp1 = Employee("Surakshya",1)
+emp2 = Employee("Hari",2)
+emp3 = Employee("Gita",3)
+emp4 = Employee("Shyam",4)
+emp1.print_emp_details()
+emp2.print_emp_details()
+emp3.print_emp_details()
+emp4.print_emp_details()
 
 #8. import library(example calender)
 import calendar
